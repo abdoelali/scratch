@@ -1,0 +1,1586 @@
+--------- beginning of crash
+11-15 09:54:37.162  1275 14826 E Auth    : dgn: Long live credential not available.
+11-15 09:54:37.162  1275 14826 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:54:37.162  1275 14826 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:54:37.180  1275 14826 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:54:37.180  1275 14826 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:54:37.180  1275 14826 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:54:37.180  1275 14826 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:54:37.180  1275 14826 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:54:37.180  1275 14826 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:54:37.180  1275 14826 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:54:37.180  1275 14826 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:54:37.180  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:54:37.180  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:54:37.180  1275 14826 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:54:37.180  1275 14826 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:54:37.180  1275 14826 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
+11-15 09:54:41.468  1275 14826 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/contextcontroller
+11-15 09:54:41.468  1275 14826 E Auth    : dgn: Long live credential not available.
+11-15 09:54:41.468  1275 14826 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:54:41.468  1275 14826 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:54:41.557  1275 14826 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:54:41.557  1275 14826 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:54:41.557  1275 14826 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:54:41.557  1275 14826 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:54:41.557  1275 14826 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:54:41.557  1275 14826 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:54:41.557  1275 14826 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:54:41.557  1275 14826 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:54:41.557  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:54:41.557  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:54:41.557  1275 14826 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:54:41.557  1275 14826 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:54:41.560  1275 14826 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
+11-15 09:55:05.507  1275 14826 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/contextcontroller
+11-15 09:55:05.507  1275 14826 E Auth    : dgn: Long live credential not available.
+11-15 09:55:05.507  1275 14826 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:05.507  1275 14826 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:05.547  1275 14826 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:55:05.547  1275 14826 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:55:05.547  1275 14826 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:55:05.547  1275 14826 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:05.547  1275 14826 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:05.547  1275 14826 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:05.547  1275 14826 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:05.547  1275 14826 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:05.547  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:05.547  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:05.547  1275 14826 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:05.547  1275 14826 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:05.549  1275 14826 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
+11-15 09:55:05.884  1275 14826 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/contextcontroller
+11-15 09:55:05.884  1275 14826 E Auth    : dgn: Long live credential not available.
+11-15 09:55:05.884  1275 14826 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:05.884  1275 14826 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:05.914  1275 14826 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:55:05.914  1275 14826 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:55:05.914  1275 14826 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:55:05.914  1275 14826 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:05.914  1275 14826 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:05.914  1275 14826 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:05.914  1275 14826 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:05.914  1275 14826 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:05.914  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:05.914  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:05.914  1275 14826 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:05.914  1275 14826 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:05.915  1275 14826 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
+11-15 09:55:11.355  1275 14826 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/contextcontroller
+11-15 09:55:11.355  1275 14826 E Auth    : dgn: Long live credential not available.
+11-15 09:55:11.355  1275 14826 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:11.355  1275 14826 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:11.390  1275 14826 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:55:11.390  1275 14826 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:55:11.390  1275 14826 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:55:11.390  1275 14826 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:11.390  1275 14826 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:11.390  1275 14826 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:11.390  1275 14826 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:11.390  1275 14826 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:11.390  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:11.390  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:11.390  1275 14826 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:11.390  1275 14826 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:11.391  1275 14826 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
+11-15 09:55:18.091  1275 14826 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/contextcontroller
+11-15 09:55:18.091  1275 14826 E Auth    : dgn: Long live credential not available.
+11-15 09:55:18.091  1275 14826 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:18.091  1275 14826 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:18.113  1275 14826 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:55:18.113  1275 14826 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:55:18.113  1275 14826 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:55:18.113  1275 14826 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:18.113  1275 14826 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:18.113  1275 14826 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:18.113  1275 14826 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:18.113  1275 14826 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:18.113  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:18.113  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:18.113  1275 14826 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:18.113  1275 14826 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:18.115  1275 14826 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
+11-15 09:55:20.389  1275 14826 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/contextcontroller
+11-15 09:55:20.389  1275 14826 E Auth    : dgn: Long live credential not available.
+11-15 09:55:20.389  1275 14826 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:20.389  1275 14826 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:20.406  1275 14826 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:55:20.406  1275 14826 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:55:20.406  1275 14826 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:55:20.406  1275 14826 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:20.406  1275 14826 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:20.406  1275 14826 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:20.406  1275 14826 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:20.406  1275 14826 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:20.406  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:20.406  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:20.406  1275 14826 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:20.406  1275 14826 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:20.410  1275 14826 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
+11-15 09:55:20.596  1429  1436 E System  : Uncaught exception thrown by finalizer
+11-15 09:55:20.601  1429  1436 E System  : java.lang.NullPointerException: ssl_session == null
+11-15 09:55:20.601  1429  1436 E System  : 	at com.android.org.conscrypt.NativeCrypto.SSL_SESSION_free(Native Method)
+11-15 09:55:20.601  1429  1436 E System  : 	at com.android.org.conscrypt.OpenSSLSessionImpl.finalize(OpenSSLSessionImpl.java:485)
+11-15 09:55:20.601  1429  1436 E System  : 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:202)
+11-15 09:55:20.601  1429  1436 E System  : 	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:185)
+11-15 09:55:20.601  1429  1436 E System  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:20.812  1275  1275 E NetworkScheduler.SR: Invalid parameter app
+11-15 09:55:20.812  1275  1275 E NetworkScheduler.SR: Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+11-15 09:55:20.854  1429  2097 E Drive.UninstallOperation: Package still installed org.tensorflow.demo
+11-15 09:55:21.763  1525  1532 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (com.google.android.gms.wearable.DataItemBuffer@1725934)
+11-15 09:55:21.971  1429 18893 E IntentOperationSvc: Failed to instantiate Chimera operation impl, dropping operation
+11-15 09:55:22.503  1275  1275 E NetworkScheduler.SR: Invalid parameter app
+11-15 09:55:22.503  1275  1275 E NetworkScheduler.SR: Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+11-15 09:55:33.294  1275 14825 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/contextcontroller
+11-15 09:55:33.294  1275 14825 E Auth    : dgn: Long live credential not available.
+11-15 09:55:33.294  1275 14825 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:33.294  1275 14825 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:33.318  1275 14825 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:55:33.318  1275 14825 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:55:33.318  1275 14825 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:55:33.318  1275 14825 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:33.318  1275 14825 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:33.318  1275 14825 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:33.318  1275 14825 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:33.318  1275 14825 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:33.318  1275 14825 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:33.318  1275 14825 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:33.318  1275 14825 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:33.318  1275 14825 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:33.320  1275 14825 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
+11-15 09:55:34.927  1275 14825 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/contextcontroller
+11-15 09:55:34.927  1275 14825 E Auth    : dgn: Long live credential not available.
+11-15 09:55:34.927  1275 14825 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:34.927  1275 14825 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:34.946  1275 14825 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:55:34.946  1275 14825 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:55:34.946  1275 14825 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:55:34.946  1275 14825 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:34.946  1275 14825 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:34.946  1275 14825 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:34.946  1275 14825 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:34.946  1275 14825 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:34.946  1275 14825 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:34.946  1275 14825 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:34.946  1275 14825 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:34.946  1275 14825 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:34.947  1275 14825 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
+11-15 09:55:37.008  1275 14825 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/contextcontroller
+11-15 09:55:37.008  1275 14825 E Auth    : dgn: Long live credential not available.
+11-15 09:55:37.008  1275 14825 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:37.008  1275 14825 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:37.042  1275 14825 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:55:37.042  1275 14825 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:55:37.042  1275 14825 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:55:37.042  1275 14825 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:37.042  1275 14825 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:37.042  1275 14825 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:37.042  1275 14825 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:37.042  1275 14825 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:37.042  1275 14825 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:37.042  1275 14825 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:37.042  1275 14825 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:37.042  1275 14825 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:37.046  1275 14825 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
+11-15 09:55:37.196  1275 27870 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.android.vending, Service: androidsecure
+11-15 09:55:37.196  1275 27870 E Auth    : dgn: Long live credential not available.
+11-15 09:55:37.196  1275 27870 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at dbw.a(:com.google.android.gms:37)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at ddj.getAuthToken(:com.google.android.gms:181)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:214)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+11-15 09:55:37.196  1275 27870 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
+11-15 09:55:42.148  1275 14826 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/contextcontroller
+11-15 09:55:42.148  1275 14826 E Auth    : dgn: Long live credential not available.
+11-15 09:55:42.148  1275 14826 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:42.148  1275 14826 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:42.172  1275 14826 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:55:42.172  1275 14826 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:55:42.172  1275 14826 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:55:42.172  1275 14826 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:42.172  1275 14826 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:42.172  1275 14826 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:42.172  1275 14826 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:42.172  1275 14826 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:42.172  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:42.172  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:42.172  1275 14826 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:42.172  1275 14826 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:42.173  1275 14826 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
+11-15 09:55:46.881   784   888 E native  : do suspend false
+11-15 09:55:46.950  2202  2210 E ANDR-PERF-LOCK: Failed to reset optimization for resource: 4 level: 0
+11-15 09:55:48.847  1275  1275 E ChimeraRcvrProxy: Can't find Chimera receiver impl class com.google.android.gms.auth.setup.devicesignals.LockScreenChimeraReceiver, dropping broadcast
+11-15 09:55:48.909  1637  1735 E BrcmNfcJni: nfaConnectionCallback: unknown event ????
+11-15 09:55:49.100   197 19200 E ACDB-LOADER: Error: ACDB AudProc vol returned = -19
+11-15 09:55:51.905 24243 19173 E AudioRecord-JNI: Error -4 during AudioRecord native read
+11-15 09:55:51.981  1275  1288 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/games
+11-15 09:55:51.981  1275  1288 E Auth    : dgn: Long live credential not available.
+11-15 09:55:51.981  1275  1288 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at dbw.a(:com.google.android.gms:37)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at ddj.getAuthToken(:com.google.android.gms:181)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:214)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+11-15 09:55:51.981  1275  1288 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
+11-15 09:55:56.728 19266 19266 E OpenCV/StaticHelper: OpenCV error: Cannot load info library for OpenCV
+11-15 09:55:56.758 19266 19266 I native  : tensorflow_inference_jni.cc:82 Creating new session variables for 71342b6685d2481a
+11-15 09:55:56.758 19266 19266 I native  : tensorflow_inference_jni.cc:105 Loading Tensorflow.
+11-15 09:55:56.758 19266 19266 I native  : tensorflow_inference_jni.cc:107 Making new SessionOptions.
+11-15 09:55:56.758 19266 19266 I native  : tensorflow_inference_jni.cc:110 Got config, 0 devices
+11-15 09:55:56.763 19266 19266 I native  : tensorflow_inference_jni.cc:114 Session created.
+11-15 09:55:56.763 19266 19266 I native  : tensorflow_inference_jni.cc:117 Graph created.
+11-15 09:55:56.765 19266 19266 I native  : tensorflow_inference_jni.cc:121 Acquired AssetManager.
+11-15 09:55:56.765 19266 19266 I native  : tensorflow_inference_jni.cc:123 Reading file to proto: file:///android_asset/optimized_cnn_graph.pb
+11-15 09:55:56.765 19266 19266 I native  : tensorflow_inference_jni.cc:126 Creating session.
+11-15 09:55:56.765 19266 19266 I native  : tensorflow_inference_jni.cc:137 Tensorflow graph loaded from: file:///android_asset/optimized_cnn_graph.pb
+11-15 09:55:56.765 19266 19266 I native  : tensorflow_inference_jni.cc:140 Initialization done in 7.153ms
+11-15 09:55:56.924 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 3264x2448
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 3200x2400
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 2592x1944
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 2048x1536
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 1920x1080
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 1600x1200
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 1280x960
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 1280x768
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 1280x720
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 1024x768
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 800x600
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 800x480
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 720x480
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Adding size: 640x480
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Not adding size: 352x288
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Not adding size: 320x240
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Not adding size: 176x144
+11-15 09:55:56.925 19266 19266 I tensorflow: CameraConnectionFragment: Chosen size: 640x480
+11-15 09:55:56.977  5921  5921 E mm-camera: Failed to open sensor1 port
+11-15 09:55:57.014  2202  2210 E ANDR-PERF-LOCK: Failed to apply optimization for resource: 4 level: 0
+11-15 09:55:57.022 19266 19312 I tensorflow: CameraConnectionFragment: Opening camera preview: 640x480
+11-15 09:55:57.063   197  6909 E mm-camera-intf: mm_stream_get_v4l2_fmt: Unknown fmt=78
+11-15 09:55:57.064  5921 19320 E mm-camera: mct_pipeline_get_stream: stream not found in the list
+11-15 09:55:57.067 19266 19312 I tensorflow: CameraConnectionFragment: Getting assets.
+11-15 09:55:57.069 19266 19312 I tensorflow: CameraConnectionFragment: TensorFlow initialized.
+11-15 09:55:57.076  5921 19320 E mm-camera: cpp_module_notify_add_stream:1294 failed: invalid stream type 5
+11-15 09:55:57.501  5921 19320 E mm-camera-img: Face Album FILE EXISTS
+11-15 09:55:57.637  5921 19320 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+11-15 09:55:57.637  5921 19320 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10002
+11-15 09:55:57.637  5921 19320 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+11-15 09:55:57.637  5921 19320 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+11-15 09:55:57.637  5921 19320 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+11-15 09:55:57.638  5921 19320 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+11-15 09:55:57.638  5921 19320 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10003
+11-15 09:55:57.638  5921 19320 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+11-15 09:55:57.638  5921 19320 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+11-15 09:55:57.639  5921 19320 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+11-15 09:55:57.644  5921 19320 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+11-15 09:55:57.644  5921 19320 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10002
+11-15 09:55:57.644  5921 19320 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+11-15 09:55:57.644  5921 19320 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+11-15 09:55:57.644  5921 19320 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+11-15 09:55:57.645  5921 19320 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+11-15 09:55:57.645  5921 19320 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10003
+11-15 09:55:57.645  5921 19320 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+11-15 09:55:57.645  5921 19320 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+11-15 09:55:57.645  5921 19320 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+11-15 09:55:57.651  5921 19320 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+11-15 09:55:57.651  5921 19320 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10002
+11-15 09:55:57.651  5921 19320 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+11-15 09:55:57.651  5921 19320 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+11-15 09:55:57.651  5921 19320 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+11-15 09:55:57.651  5921 19320 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+11-15 09:55:57.652  5921 19320 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10003
+11-15 09:55:57.652  5921 19320 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+11-15 09:55:57.652  5921 19320 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+11-15 09:55:57.652  5921 19320 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+11-15 09:55:57.655  5921 19320 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+11-15 09:55:57.655  5921 19320 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10002
+11-15 09:55:57.655  5921 19320 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+11-15 09:55:57.655  5921 19320 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+11-15 09:55:57.655  5921 19320 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+11-15 09:55:57.656  5921 19320 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+11-15 09:55:57.656  5921 19320 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10003
+11-15 09:55:57.656  5921 19320 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+11-15 09:55:57.656  5921 19320 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+11-15 09:55:57.656  5921 19320 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+11-15 09:55:57.760  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 4 0, native 1, mapped 1 1
+11-15 09:55:57.769 19266 19312 I tensorflow: TensorFlowImageListener: Initializing at size 640x480
+11-15 09:55:57.770  5921 19320 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+11-15 09:55:57.770  5921 19320 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10002
+11-15 09:55:57.770  5921 19320 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+11-15 09:55:57.770  5921 19320 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+11-15 09:55:57.770  5921 19320 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+11-15 09:55:57.771  5921 19320 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+11-15 09:55:57.771  5921 19320 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10003
+11-15 09:55:57.771  5921 19320 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+11-15 09:55:57.771  5921 19320 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+11-15 09:55:57.771  5921 19320 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+11-15 09:55:57.792 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:57.793 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:57.793  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 5 4, native 1, mapped 1 1
+11-15 09:55:57.807 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:57.807  5921 19320 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+11-15 09:55:57.807  5921 19320 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10003
+11-15 09:55:57.807  5921 19320 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+11-15 09:55:57.807  5921 19320 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+11-15 09:55:57.807  5921 19320 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+11-15 09:55:57.807 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:57.813 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.814 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.814 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 1 runs)
+11-15 09:55:57.814 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:57.814 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.814 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.814 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:57.827  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 6 5, native 1, mapped 1 1
+11-15 09:55:57.837 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:57.838 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:57.841 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:57.841 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:57.847 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.847 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.847 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 2 runs)
+11-15 09:55:57.847 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:57.847 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.847 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.847 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:57.861  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 7 6, native 1, mapped 1 1
+11-15 09:55:57.880 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:57.880 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:57.885 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:57.885 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:57.890 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.891 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.891 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 3 runs)
+11-15 09:55:57.891 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:57.891 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.891 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.891 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:57.894  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 8 7, native 1, mapped 1 1
+11-15 09:55:57.927 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:57.927 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:57.928  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 9 8, native 1, mapped 1 1
+11-15 09:55:57.934 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:57.935 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:57.941 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.941 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.941 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 4 runs)
+11-15 09:55:57.941 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:57.941 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.941 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.941 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:57.955 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:57.955 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:57.959 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:57.959 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:57.961  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 10 9, native 1, mapped 1 1
+11-15 09:55:57.972 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.972 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.972 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 5 runs)
+11-15 09:55:57.972 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:57.973 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.973 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:57.973 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:57.993 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:57.993 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:57.995  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 11 10, native 1, mapped 1 1
+11-15 09:55:58.003 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.003 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.011 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.011 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.011 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 6 runs)
+11-15 09:55:58.011 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.012 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.012 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.012 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.024 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.024 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.028 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.028  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 12 11, native 1, mapped 1 1
+11-15 09:55:58.029 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.037 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.037 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.037 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 7 runs)
+11-15 09:55:58.037 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.037 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.037 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.037 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.050 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.050 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.056 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.056 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.062  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 13 12, native 1, mapped 1 1
+11-15 09:55:58.065 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.065 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.065 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 8 runs)
+11-15 09:55:58.065 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.066 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.066 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.066 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.091 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.091 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.096  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 14 13, native 1, mapped 1 1
+11-15 09:55:58.099 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.099 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.105 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.105 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.105 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 9 runs)
+11-15 09:55:58.105 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.105 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.105 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.105 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.115 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.115 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.119 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.119 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.124 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.124 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.124 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 10 runs)
+11-15 09:55:58.124 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.124 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.124 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.124 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.129  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 15 14, native 1, mapped 1 1
+11-15 09:55:58.148 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.148 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.152 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.152 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.157 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.157 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.157 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 11 runs)
+11-15 09:55:58.157 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.157 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.157 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.157 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.163  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 16 15, native 1, mapped 1 1
+11-15 09:55:58.181 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.181 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.186 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.186 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.191 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.191 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.192 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 12 runs)
+11-15 09:55:58.192 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.192 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.192 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.192 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.196  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 17 16, native 1, mapped 1 1
+11-15 09:55:58.224 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.224 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.230  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 18 17, native 1, mapped 1 1
+11-15 09:55:58.231 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.232 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.242 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.243 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.243 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 13 runs)
+11-15 09:55:58.243 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.243 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.243 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.243 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.263  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 19 18, native 1, mapped 1 1
+11-15 09:55:58.281 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.281 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.284 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.284 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.289 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.289 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.289 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 14 runs)
+11-15 09:55:58.289 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.289 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.289 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.289 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.297  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 20 19, native 1, mapped 1 1
+11-15 09:55:58.319 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.319 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.323 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.323 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.328 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.329 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.329 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 15 runs)
+11-15 09:55:58.329 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.329 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.329 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.329 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.331  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 21 20, native 1, mapped 1 1
+11-15 09:55:58.333  1275 14826 E ctxmgr  : [BaseProducer]Could not write ScreenState context, for account account#-517948760#, status = Status{statusCode=TIMEOUT, resolution=null}
+11-15 09:55:58.353 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.353 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.358 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.358 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.364 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.364 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.364 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 16 runs)
+11-15 09:55:58.364  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 22 21, native 1, mapped 1 1
+11-15 09:55:58.364 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.365 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.365 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.365 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.395 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.395 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.398  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 23 22, native 1, mapped 1 1
+11-15 09:55:58.403 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.403 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.413 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.414 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.414 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 17 runs)
+11-15 09:55:58.414 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.414 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.414 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.414 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.432  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 24 23, native 1, mapped 1 1
+11-15 09:55:58.465  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 25 24, native 1, mapped 1 1
+11-15 09:55:58.465 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.466 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.479 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.480 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.495 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.496 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.496 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 18 runs)
+11-15 09:55:58.496 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.496 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.496 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.496 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.498  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 26 25, native 1, mapped 1 1
+11-15 09:55:58.531 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.531 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.533  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 27 26, native 1, mapped 1 1
+11-15 09:55:58.545 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.546 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.556 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.556 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.556 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 19 runs)
+11-15 09:55:58.556 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.556 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.556 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.556 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.567  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 28 27, native 1, mapped 1 1
+11-15 09:55:58.597 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.597 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.599  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 29 28, native 1, mapped 1 1
+11-15 09:55:58.605 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.606 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.615 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.615 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.615 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 20 runs)
+11-15 09:55:58.615 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.615 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.615 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.616 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.632 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.632 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.633  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 30 29, native 1, mapped 1 1
+11-15 09:55:58.640 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.641 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.649 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.649 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.649 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 21 runs)
+11-15 09:55:58.649 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.650 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.650 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.650 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.666  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 31 30, native 1, mapped 1 1
+11-15 09:55:58.674 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.675 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.681 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.681 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.689 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.689 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.689 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 22 runs)
+11-15 09:55:58.689 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.689 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.689 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.689 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.700  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 32 31, native 1, mapped 1 1
+11-15 09:55:58.731 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.731 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.733  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 33 32, native 1, mapped 1 1
+11-15 09:55:58.740 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.740 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.749 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.749 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.749 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 23 runs)
+11-15 09:55:58.749 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.749 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.749 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.749 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.767  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 34 33, native 1, mapped 1 1
+11-15 09:55:58.798 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.798 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.802  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 35 34, native 1, mapped 1 1
+11-15 09:55:58.805 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.806 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.815 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.815 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.815 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 24 runs)
+11-15 09:55:58.815 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.815 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.815 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.815 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.835  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 36 35, native 1, mapped 1 1
+11-15 09:55:58.867  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 37 36, native 1, mapped 1 1
+11-15 09:55:58.882 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.882 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.888 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.888 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.900 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.900 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.900 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 25 runs)
+11-15 09:55:58.900 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.900 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.900 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.901 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.901  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 38 37, native 1, mapped 1 1
+11-15 09:55:58.935  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 39 38, native 1, mapped 1 1
+11-15 09:55:58.938 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.939 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.945 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:58.945 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:58.954 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.954 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.954 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 26 runs)
+11-15 09:55:58.954 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:58.954 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.954 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:58.954 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:58.970  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 40 39, native 1, mapped 1 1
+11-15 09:55:59.001 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.001 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.002  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 41 40, native 1, mapped 1 1
+11-15 09:55:59.008 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.008 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.016 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.016 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.016 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 27 runs)
+11-15 09:55:59.016 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.017 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.017 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.017 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.034 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.035 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.036  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 42 41, native 1, mapped 1 1
+11-15 09:55:59.043 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.043 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.049 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.049 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.050 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 28 runs)
+11-15 09:55:59.050 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.050 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.050 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.050 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.069  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 43 42, native 1, mapped 1 1
+11-15 09:55:59.096 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.096 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.103  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 44 43, native 1, mapped 1 1
+11-15 09:55:59.106 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.106 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.115 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.115 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.116 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 29 runs)
+11-15 09:55:59.116 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.116 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.116 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.116 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.136  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 45 44, native 1, mapped 1 1
+11-15 09:55:59.162 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.162 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.167 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.167 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.170  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 46 45, native 1, mapped 1 1
+11-15 09:55:59.176 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.176 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.176 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 30 runs)
+11-15 09:55:59.176 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.177 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.177 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.177 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.188 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.188 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.192 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.192 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.198 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.198 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.198 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 31 runs)
+11-15 09:55:59.198 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.198 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.198 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.198 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.203  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 47 46, native 1, mapped 1 1
+11-15 09:55:59.222 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.222 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.227 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.227 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.232 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.232 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.232 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 32 runs)
+11-15 09:55:59.232 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.232 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.232 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.232 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.238  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 48 47, native 1, mapped 1 1
+11-15 09:55:59.256 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.257 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.261 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.261 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.266 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.267 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.267 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 33 runs)
+11-15 09:55:59.267 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.267 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.267 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.267 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.270  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 49 48, native 1, mapped 1 1
+11-15 09:55:59.296 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.296 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.301 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.301 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.304  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 50 49, native 1, mapped 1 1
+11-15 09:55:59.310 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.311 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.311 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 34 runs)
+11-15 09:55:59.311 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.311 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.311 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.311 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.339  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 51 50, native 1, mapped 1 1
+11-15 09:55:59.343 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.343 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.350 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.351 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.358 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.358 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.358 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 35 runs)
+11-15 09:55:59.358 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.358 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.358 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.358 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.371  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 52 51, native 1, mapped 1 1
+11-15 09:55:59.379 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.379 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.387 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.388 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.395 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.395 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.395 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 36 runs)
+11-15 09:55:59.396 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.396 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.396 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.396 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.405  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 53 52, native 1, mapped 1 1
+11-15 09:55:59.421 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.421 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.426 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.426 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.436 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.436 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.436 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 37 runs)
+11-15 09:55:59.436 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.436 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.436 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.436 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.438  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 54 53, native 1, mapped 1 1
+11-15 09:55:59.460 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.461 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.466 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.466 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.471 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.472 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.472 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 38 runs)
+11-15 09:55:59.472 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.472 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.472 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.472 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.473  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 55 54, native 1, mapped 1 1
+11-15 09:55:59.492 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.492 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.495 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.495 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.500 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.500 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.500 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 39 runs)
+11-15 09:55:59.500 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.500 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.500 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.500 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.505  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 56 55, native 1, mapped 1 1
+11-15 09:55:59.538 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.538 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.538  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 57 56, native 1, mapped 1 1
+11-15 09:55:59.547 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.547 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.556 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.556 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.556 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 40 runs)
+11-15 09:55:59.556 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.556 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.556 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.556 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.573  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 58 57, native 1, mapped 1 1
+11-15 09:55:59.601 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.601 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.607  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 59 58, native 1, mapped 1 1
+11-15 09:55:59.609 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.609 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.622 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.623 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.623 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 41 runs)
+11-15 09:55:59.623 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.623 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.623 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.623 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.640  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 60 59, native 1, mapped 1 1
+11-15 09:55:59.649 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.649 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.657 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.657 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.666  1275 14826 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/contextcontroller
+11-15 09:55:59.666  1275 14826 E Auth    : dgn: Long live credential not available.
+11-15 09:55:59.666  1275 14826 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:59.666  1275 14826 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:59.667 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.667 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.667 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 42 runs)
+11-15 09:55:59.667 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.667 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.668 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.668 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.673  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 61 60, native 1, mapped 1 1
+11-15 09:55:59.682  5921 19320 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+11-15 09:55:59.682  5921 19320 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10002
+11-15 09:55:59.682  5921 19320 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+11-15 09:55:59.682  5921 19320 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+11-15 09:55:59.682  5921 19320 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+11-15 09:55:59.706  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 62 61, native 1, mapped 1 1
+11-15 09:55:59.711 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.711 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.717 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.717 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.723 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.723 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.723 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 43 runs)
+11-15 09:55:59.723 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.723 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.723 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.723 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.724  1275 14826 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:55:59.724  1275 14826 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:55:59.724  1275 14826 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:55:59.724  1275 14826 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:55:59.724  1275 14826 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:55:59.724  1275 14826 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:55:59.724  1275 14826 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:55:59.724  1275 14826 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:55:59.724  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:55:59.724  1275 14826 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:55:59.724  1275 14826 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:55:59.724  1275 14826 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:55:59.724  1275 14826 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
+11-15 09:55:59.740  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 63 62, native 1, mapped 1 1
+11-15 09:55:59.758 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.758 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.761 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.762 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.766 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.766 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.766 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 44 runs)
+11-15 09:55:59.766 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.766 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.766 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.767 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.774  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 64 63, native 1, mapped 1 1
+11-15 09:55:59.792 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.792 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.796 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.796 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.801 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.801 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.801 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 45 runs)
+11-15 09:55:59.801 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.801 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.801 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.801 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.807  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 65 64, native 1, mapped 1 1
+11-15 09:55:59.825 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.825 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.828 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.828 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.833 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.833 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.833 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 46 runs)
+11-15 09:55:59.833 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.833 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.833 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.833 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.840  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 66 65, native 1, mapped 1 1
+11-15 09:55:59.859 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.859 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.862 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.862 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.867 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.867 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.867 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 47 runs)
+11-15 09:55:59.867 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.867 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.867 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.867 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.874  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 67 66, native 1, mapped 1 1
+11-15 09:55:59.892 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.892 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.896 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.896 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.901 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.901 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.901 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 48 runs)
+11-15 09:55:59.901 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.901 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.901 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.901 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.908  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 68 67, native 1, mapped 1 1
+11-15 09:55:59.937 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.937 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.940  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 69 68, native 1, mapped 1 1
+11-15 09:55:59.948 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.948 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.957 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.957 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.957 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 49 runs)
+11-15 09:55:59.957 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.958 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.958 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.958 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:55:59.975  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 70 69, native 1, mapped 1 1
+11-15 09:55:59.979 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.979 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.986 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:55:59.986 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:55:59.995 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.995 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.995 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 50 runs)
+11-15 09:55:59.995 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:55:59.995 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.995 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:55:59.995 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.008  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 71 70, native 1, mapped 1 1
+11-15 09:56:00.026 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.026 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.030 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.030 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.035 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.035 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.035 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 51 runs)
+11-15 09:56:00.035 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.035 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.035 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.035 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.043  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 72 71, native 1, mapped 1 1
+11-15 09:56:00.049 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.049 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.053 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.053 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.061 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.061 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.061 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 52 runs)
+11-15 09:56:00.061 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.061 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.061 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.062 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.074 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.074 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.075  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 73 72, native 1, mapped 1 1
+11-15 09:56:00.080 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.080 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.086 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.086 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.086 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 53 runs)
+11-15 09:56:00.086 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.086 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.086 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.086 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.096 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.096 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.100 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.100 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.105 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.105 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.106 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 54 runs)
+11-15 09:56:00.106 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.106 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.106 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.106 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.108  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 74 73, native 1, mapped 1 1
+11-15 09:56:00.130 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.130 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.133 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.133 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.138 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.138 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.138 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 55 runs)
+11-15 09:56:00.138 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.138 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.138 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.138 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.142  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 75 74, native 1, mapped 1 1
+11-15 09:56:00.162 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.162 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.165 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.165 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.170 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.170 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.170 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 56 runs)
+11-15 09:56:00.170 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.170 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.170 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.171 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.176  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 76 75, native 1, mapped 1 1
+11-15 09:56:00.195 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.195 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.199 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.199 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.204 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.204 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.204 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 57 runs)
+11-15 09:56:00.204 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.204 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.204 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.204 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.210  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 77 76, native 1, mapped 1 1
+11-15 09:56:00.228 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.228 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.231 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.231 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.236 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.236 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.236 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 58 runs)
+11-15 09:56:00.236 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.236 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.236 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.237 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.242  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 78 77, native 1, mapped 1 1
+11-15 09:56:00.262 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.262 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.265 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.266 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.270 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.270 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.270 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 59 runs)
+11-15 09:56:00.270 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.270 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.270 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.271 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.277  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 79 78, native 1, mapped 1 1
+11-15 09:56:00.296 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.296 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.299 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.299 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.304 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.304 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.304 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 60 runs)
+11-15 09:56:00.304 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.304 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.304 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.305 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.309  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 80 79, native 1, mapped 1 1
+11-15 09:56:00.333 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.333 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.337 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.337 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.342 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.342 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.342 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 61 runs)
+11-15 09:56:00.342 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.342 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.342 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.342 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.344  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 81 81, native 1, mapped 1 1
+11-15 09:56:00.362 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.362 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.365 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.365 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.370 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.370 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.370 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 62 runs)
+11-15 09:56:00.371 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.371 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.371 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.371 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.376  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 82 81, native 1, mapped 1 1
+11-15 09:56:00.394 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.394 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.400 24243 24243 E ClientVe: Failed to create ClientVisualElementsProto for user interaction 27 on view com.google.android.apps.gsa.assist.AssistLayerContainer{917ca87 V.E...... ......ID 0,0-1920,1080 #7f050164 app:id/assist_layer} because that user interaction is not enabled for the view.
+11-15 09:56:00.401 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.401 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.411  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 83 82, native 1, mapped 1 1
+11-15 09:56:00.424 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.424 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.424 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 63 runs)
+11-15 09:56:00.424 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.424 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.424 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.424 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.443  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 84 83, native 1, mapped 1 1
+11-15 09:56:00.477  1662  1662 E NowRemoteClient: skipping logEndstates, service is null
+11-15 09:56:00.477  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 85 84, native 1, mapped 1 1
+11-15 09:56:00.486 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.487 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.497 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.497 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.507 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.507 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.507 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 64 runs)
+11-15 09:56:00.508 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.508 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.508 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.508 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.511  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 86 85, native 1, mapped 1 1
+11-15 09:56:00.544 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.544 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.545  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 87 86, native 1, mapped 1 1
+11-15 09:56:00.559 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.559 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.577  5921 19317 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 88 87, native 1, mapped 1 1
+11-15 09:56:00.592 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.594 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.594 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 65 runs)
+11-15 09:56:00.595 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.595 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.595 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.595 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.614   197   828 E mm-camera-intf: mm_camera_poll_thread_del_poll_fd: invalid handler 175360 (0)
+11-15 09:56:00.644   197 19432 E ACDB-LOADER: Error: ACDB AudProc vol returned = -19
+11-15 09:56:00.655 19266 19312 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.656 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.668 19266 19312 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+11-15 09:56:00.668 19266 19312 I tensorflow: ImageUtils: Make dir failed
+11-15 09:56:00.695   197   828 E mm-camera-intf: mm_camera_poll_thread_del_poll_fd: invalid handler 174848 (0)
+11-15 09:56:00.697 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.697 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.697 19266 19313 I native  : tensorflow_inference_jni.cc:197 End computing. Ran in 0ms (0ms avg over 66 runs)
+11-15 09:56:00.698 19266 19313 E native  : tensorflow_inference_jni.cc:202 Error during inference: Invalid argument: Session was not created with a graph before Run()!
+11-15 09:56:00.698 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.698 19266 19313 I native  : tensorflow_inference_jni.cc:87 Found session variables for 71342b6685d2481a
+11-15 09:56:00.698 19266 19313 E native  : tensorflow_inference_jni.cc:159 Output [output/Softmax:0] not found, aborting!
+11-15 09:56:00.760  5921 19320 E mm-camera: isp_unlink_sink_port: E
+11-15 09:56:00.761   197   828 E QCamera3Channel: virtual qcamera::QCamera3Channel::~QCamera3Channel(): deleting channel 175106
+11-15 09:56:00.765  5921 19320 E mm-camera: isp_unlink_sink_port: E
+11-15 09:56:00.765  5921 19320 E mm-camera-img: faceproc_save_album:774] Error No album 
+11-15 09:56:00.765  5921 19320 E mm-camera-img: faceproc_comp_eng_destroy: Album save failed -1
+11-15 09:56:00.766   197   828 E QCamera3Channel: virtual qcamera::QCamera3Channel::~QCamera3Channel(): deleting channel 174593
+11-15 09:56:00.779   197   828 E QCamera3Channel: virtual qcamera::QCamera3Channel::~QCamera3Channel(): deleting channel 174080
+11-15 09:56:00.780  5921 19320 E mm-camera: mct_pipeline_get_stream: no children
+11-15 09:56:00.780  5921 19320 E mm-camera: mct_pipeline_process_set:1451: Couldn't find stream
+11-15 09:56:00.862  2202  2210 E ANDR-PERF-LOCK: Failed to reset optimization for resource: 4 level: 0
+11-15 09:56:00.916  1275 13967 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/contextcontroller
+11-15 09:56:00.916  1275 13967 E Auth    : dgn: Long live credential not available.
+11-15 09:56:00.916  1275 13967 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:56:00.916  1275 13967 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:56:01.022  1275 13967 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:56:01.022  1275 13967 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:56:01.022  1275 13967 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:56:01.022  1275 13967 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:56:01.022  1275 13967 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:56:01.022  1275 13967 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:56:01.022  1275 13967 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:56:01.022  1275 13967 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:56:01.022  1275 13967 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:56:01.022  1275 13967 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:56:01.022  1275 13967 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:56:01.022  1275 13967 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:56:01.048  1275  1283 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@2854fd2)
+11-15 09:56:01.048  1275  1283 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@f8128a3)
+11-15 09:56:01.049  1275  1283 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@57227a0)
+11-15 09:56:01.050  1275  1283 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@f6dcf59)
+11-15 09:56:01.060  1275  1283 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@ef3abff)
+11-15 09:56:01.060  1275  1283 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@2621dcc)
+11-15 09:56:01.061  1275  1283 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@a30815)
+11-15 09:56:01.062  1275  1283 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@71f072a)
+11-15 09:56:01.068  1275 13967 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
+11-15 09:56:07.273  1275 23226 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.android.vending, Service: androidsecure
+11-15 09:56:07.273  1275 23226 E Auth    : dgn: Long live credential not available.
+11-15 09:56:07.273  1275 23226 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at dbw.a(:com.google.android.gms:37)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at ddj.getAuthToken(:com.google.android.gms:181)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:214)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+11-15 09:56:07.273  1275 23226 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
+11-15 09:56:08.275  1275 13967 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/contextcontroller
+11-15 09:56:08.275  1275 13967 E Auth    : dgn: Long live credential not available.
+11-15 09:56:08.275  1275 13967 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at dbx.d(:com.google.android.gms:445)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at dbv.b(:com.google.android.gms:562)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at jht.a(:com.google.android.gms:1080)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at jgj.a(:com.google.android.gms:53)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at bnz.a(:com.google.android.gms:5093)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at jly.run(:com.google.android.gms:139)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:56:08.275  1275 13967 E Auth    : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:56:08.299  1275 13967 E ctxmgr  : [BaseServerTask]Server task (WriteInterestRecordTask) got error response.
+11-15 09:56:08.299  1275 13967 E ctxmgr  : com.android.volley.VolleyError: Unable to obtain auth token - is the device online?
+11-15 09:56:08.299  1275 13967 E ctxmgr  : 	at bnz.a(:com.google.android.gms:5113)
+11-15 09:56:08.299  1275 13967 E ctxmgr  : 	at bjv.run(:com.google.android.gms:65)
+11-15 09:56:08.299  1275 13967 E ctxmgr  : 	at bjt.a(:com.google.android.gms:249)
+11-15 09:56:08.299  1275 13967 E ctxmgr  : 	at bjt.handleMessage(:com.google.android.gms:242)
+11-15 09:56:08.299  1275 13967 E ctxmgr  : 	at jly.run(:com.google.android.gms:139)
+11-15 09:56:08.299  1275 13967 E ctxmgr  : 	at jmg.run(:com.google.android.gms:450)
+11-15 09:56:08.299  1275 13967 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+11-15 09:56:08.299  1275 13967 E ctxmgr  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+11-15 09:56:08.299  1275 13967 E ctxmgr  : 	at jqr.run(:com.google.android.gms:17)
+11-15 09:56:08.299  1275 13967 E ctxmgr  : 	at java.lang.Thread.run(Thread.java:818)
+11-15 09:56:08.301  1275 13967 E ctxmgr  : [SyncServerInterestRecordsOperation]Failure response from WriteInterestRecord. StatusCode = -1
