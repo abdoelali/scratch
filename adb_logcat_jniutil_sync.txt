@@ -1,0 +1,1464 @@
+--------- beginning of system
+01-05 15:32:07.115  1320  3615 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/games
+01-05 15:32:07.115  1320  3615 E Auth    : dgn: Long live credential not available.
+01-05 15:32:07.115  1320  3615 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at dbw.a(:com.google.android.gms:37)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at ddj.getAuthToken(:com.google.android.gms:181)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:214)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+01-05 15:32:07.115  1320  3615 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
+01-05 15:32:34.943   210   293 E ThermalEngine: override action 10000
+01-05 15:32:34.943   210   293 E ThermalEngine: Thermal-Server: Thermal received msg override 10000
+01-05 15:32:34.943   210   293 E ThermalEngine: override_notify : SS mode 1 override 10000
+01-05 15:33:21.735  2147  2349 E bt_btif_sock_rfcomm: find_rfc_slot_by_id unable to find RFCOMM slot id: 31
+01-05 15:33:27.703  2147  2349 E bt_btif_sock_rfcomm: find_rfc_slot_by_id unable to find RFCOMM slot id: 32
+01-05 15:34:37.322  1320  4187 E GCM     : Raising wifi heartbeat interval to: 230000 (good hb = 15, bad hb = 1)
+01-05 15:35:07.021   793   890 E InputDispatcher: channel '56dd343 org.tensorflow.demo/org.tensorflow.demo.ClassifierActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+01-05 15:35:07.554  1320  1320 E NetworkScheduler.SR: Invalid parameter app
+01-05 15:35:07.554  1320  1320 E NetworkScheduler.SR: Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+01-05 15:35:07.607  1956  2377 E Drive.UninstallOperation: Package still installed org.tensorflow.demo
+01-05 15:35:08.854  1956  3140 E IntentOperationSvc: Failed to instantiate Chimera operation impl, dropping operation
+01-05 15:35:09.041  1320  1320 E NetworkScheduler.SR: Invalid parameter app
+01-05 15:35:09.041  1320  1320 E NetworkScheduler.SR: Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+01-05 15:35:09.042  1320  1320 E NetworkScheduler.ATC: Trying to release unacquired lock: com.google.android.gms/.clearcut.service.VacuumService
+01-05 15:35:21.146  6067  6165 E AudioRecord-JNI: Error -4 during AudioRecord native read
+01-05 15:35:24.034  1320  2067 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.android.vending, Service: androidsecure
+01-05 15:35:24.034  1320  2067 E Auth    : dgn: Long live credential not available.
+01-05 15:35:24.034  1320  2067 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at dbw.a(:com.google.android.gms:37)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at ddj.getAuthToken(:com.google.android.gms:181)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:214)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+01-05 15:35:24.034  1320  2067 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
+01-05 15:35:26.211  2153  2163 E ANDR-PERF-LOCK: Failed to apply optimization for resource: 4 level: 0
+01-05 15:35:26.302   197   197 E mm-camera-intf: mm_stream_get_v4l2_fmt: Unknown fmt=78
+01-05 15:35:27.702  1320 29521 E ctxmgr  : [BaseProducer]Could not write ScreenState context, for account account#-517948760#, status = Status{statusCode=TIMEOUT, resolution=null}
+01-05 15:35:35.041   210   293 E ThermalEngine: override action 7500
+01-05 15:35:35.041   210   293 E ThermalEngine: Thermal-Server: Thermal received msg override 7500
+01-05 15:35:35.041   210   293 E ThermalEngine: override_notify : SS mode 1 override 7500
+01-05 15:35:35.778  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:35.926  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 147ms (198ms avg over 36 runs)
+01-05 15:35:35.926  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:35.926  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:35.966  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:35.966  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:35.973  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:35.974  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:35.983  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:35.983  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.167  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 183ms (197ms avg over 37 runs)
+01-05 15:35:36.167  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.167  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.194  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:36.194  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:36.198  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:36.199  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:36.205  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.206  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.384  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 178ms (197ms avg over 38 runs)
+01-05 15:35:36.385  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.385  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.401  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:36.401  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:36.411  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:36.411  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:36.422  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.422  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.558  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 136ms (195ms avg over 39 runs)
+01-05 15:35:36.559  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.559  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.598  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:36.598  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:36.603  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:36.603  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:36.609  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.609  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.742  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 133ms (194ms avg over 40 runs)
+01-05 15:35:36.743  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.743  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.762  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:36.763  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:36.766  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:36.767  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:36.772  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.772  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.925  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 152ms (193ms avg over 41 runs)
+01-05 15:35:36.925  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.925  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.966  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:36.966  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:36.972  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:36.972  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:36.982  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:36.982  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.130  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 147ms (192ms avg over 42 runs)
+01-05 15:35:37.130  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.130  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.176  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:37.176  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:37.184  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:37.185  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:37.196  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.196  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.346  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 150ms (191ms avg over 43 runs)
+01-05 15:35:37.347  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.347  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.378  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:37.378  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:37.389  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:37.390  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:37.397  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.397  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.546  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 148ms (190ms avg over 44 runs)
+01-05 15:35:37.546  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.546  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.570  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:37.570  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:37.574  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:37.574  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:37.579  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.579  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.742  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 162ms (189ms avg over 45 runs)
+01-05 15:35:37.742  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.742  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.771  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:37.771  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:37.776  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:37.776  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:37.781  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.781  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.942  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 160ms (189ms avg over 46 runs)
+01-05 15:35:37.942  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.942  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.974  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:37.974  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:37.978  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:37.978  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:37.984  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:37.984  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.132  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 147ms (188ms avg over 47 runs)
+01-05 15:35:38.132  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.132  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.173  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:38.173  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:38.179  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:38.179  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:38.186  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.186  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.335  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 149ms (187ms avg over 48 runs)
+01-05 15:35:38.336  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.336  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.386  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:38.386  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:38.394  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:38.395  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:38.404  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.404  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.575  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 171ms (187ms avg over 49 runs)
+01-05 15:35:38.576  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.576  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.610  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:38.611  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:38.615  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:38.615  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:38.621  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.621  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.799  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 178ms (186ms avg over 50 runs)
+01-05 15:35:38.800  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.800  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.858  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:38.858  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:38.867  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:38.868  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:38.877  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:38.877  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:39.071  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 193ms (186ms avg over 51 runs)
+01-05 15:35:39.071  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:39.071  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:39.114  3312  3418 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:39.114  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:39.125  3312  3418 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:35:39.125  3312  3418 I tensorflow: ImageUtils: Make dir failed
+01-05 15:35:39.152  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:39.152  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:39.193  1764  1764 E NowRemoteClient: skipping logEndstates, service is null
+01-05 15:35:39.325   197   197 E mm-camera-intf: mm_camera_poll_thread_del_poll_fd: invalid handler 7680 (0)
+01-05 15:35:39.375   197  4144 E ACDB-LOADER: Error: ACDB AudProc vol returned = -19
+01-05 15:35:39.381   197   197 E mm-camera-intf: mm_camera_poll_thread_del_poll_fd: invalid handler 7168 (0)
+01-05 15:35:39.447   197   197 E QCamera3Channel: virtual qcamera::QCamera3Channel::~QCamera3Channel(): deleting channel 7426
+01-05 15:35:39.452   197   197 E QCamera3Channel: virtual qcamera::QCamera3Channel::~QCamera3Channel(): deleting channel 6913
+01-05 15:35:39.469   197   197 E QCamera3Channel: virtual qcamera::QCamera3Channel::~QCamera3Channel(): deleting channel 6400
+01-05 15:35:39.490  3312  3419 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 337ms (189ms avg over 52 runs)
+01-05 15:35:39.492  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:39.492  3312  3419 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:35:39.558  2153  2163 E ANDR-PERF-LOCK: Failed to reset optimization for resource: 4 level: 0
+01-05 15:35:39.655  1320  1997 E LocationClientHelper: Received a data in client after calling removeLocationUpdates.
+01-05 15:35:39.833  1320  1997 E LocationClientHelper: Received a data in client after calling removeLocationUpdates.
+01-05 15:35:58.682  6067  3282 E AudioRecord-JNI: Error -4 during AudioRecord native read
+01-05 15:35:58.925  1320  1327 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@75d6ca5)
+01-05 15:35:58.925  1320  1327 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@67fb87a)
+01-05 15:35:58.925  1320  1327 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@6f2e82b)
+01-05 15:35:58.926  1320  1327 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@46c2488)
+01-05 15:35:59.005  1320  3615 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.android.vending, Service: androidsecure
+01-05 15:35:59.005  1320  3615 E Auth    : dgn: Long live credential not available.
+01-05 15:35:59.005  1320  3615 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at dbw.a(:com.google.android.gms:37)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at ddj.getAuthToken(:com.google.android.gms:181)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:214)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+01-05 15:35:59.005  1320  3615 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
+01-05 15:35:59.069   197  5321 E ACDB-LOADER: Error: ACDB AudProc vol returned = -19
+01-05 15:36:00.119  1320  3615 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.android.vending, Service: androidmarket
+01-05 15:36:00.119  1320  3615 E Auth    : dgn: Long live credential not available.
+01-05 15:36:00.119  1320  3615 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at dbw.a(:com.google.android.gms:37)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at ddj.getAuthToken(:com.google.android.gms:181)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:214)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+01-05 15:36:00.119  1320  3615 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
+01-05 15:36:00.723  1320  2539 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.android.vending, Service: androidmarket
+01-05 15:36:00.723  1320  2539 E Auth    : dgn: Long live credential not available.
+01-05 15:36:00.723  1320  2539 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at dbw.a(:com.google.android.gms:37)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at ddj.getAuthToken(:com.google.android.gms:181)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:214)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+01-05 15:36:00.723  1320  2539 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
+01-05 15:36:02.803  6067  6165 E AudioRecord-JNI: Error -4 during AudioRecord native read
+01-05 15:36:03.935  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 3264x2448
+01-05 15:36:03.935  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 3200x2400
+01-05 15:36:03.935  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 2592x1944
+01-05 15:36:03.935  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 2048x1536
+01-05 15:36:03.935  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 1920x1080
+01-05 15:36:03.935  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 1600x1200
+01-05 15:36:03.935  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 1280x960
+01-05 15:36:03.935  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 1280x768
+01-05 15:36:03.935  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 1280x720
+01-05 15:36:03.935  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 1024x768
+01-05 15:36:03.935  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 800x600
+01-05 15:36:03.935  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 800x480
+01-05 15:36:03.935  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 720x480
+01-05 15:36:03.936  3312  3312 I tensorflow: CameraConnectionFragment: Adding size: 640x480
+01-05 15:36:03.936  3312  3312 I tensorflow: CameraConnectionFragment: Not adding size: 352x288
+01-05 15:36:03.936  3312  3312 I tensorflow: CameraConnectionFragment: Not adding size: 320x240
+01-05 15:36:03.936  3312  3312 I tensorflow: CameraConnectionFragment: Not adding size: 176x144
+01-05 15:36:03.936  3312  3312 I tensorflow: CameraConnectionFragment: Chosen size: 640x480
+01-05 15:36:04.013  2153  2163 E ANDR-PERF-LOCK: Failed to apply optimization for resource: 4 level: 0
+01-05 15:36:04.016  3312  5589 I tensorflow: CameraConnectionFragment: Opening camera preview: 640x480
+01-05 15:36:04.031   197   915 E mm-camera-intf: mm_stream_get_v4l2_fmt: Unknown fmt=78
+01-05 15:36:04.033  3312  5589 I tensorflow: CameraConnectionFragment: Getting assets.
+01-05 15:36:04.033  3312  5589 I tensorflow: CameraConnectionFragment: TensorFlow initialized.
+01-05 15:36:04.040   215  5631 E mm-camera: cpp_module_notify_add_stream:1294 failed: invalid stream type 5
+01-05 15:36:04.521   215  5631 E mm-camera-img: Face Album FILE EXISTS
+01-05 15:36:04.568  1320  1997 E LocationClientHelper: Received a data in client after calling removeLocationUpdates.
+01-05 15:36:04.606  1320  1997 E LocationClientHelper: Received a data in client after calling removeLocationUpdates.
+01-05 15:36:04.613  1320  1997 E LocationClientHelper: Received a data in client after calling removeLocationUpdates.
+01-05 15:36:04.647   215  5631 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+01-05 15:36:04.647   215  5631 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10002
+01-05 15:36:04.647   215  5631 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+01-05 15:36:04.647   215  5631 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+01-05 15:36:04.647   215  5631 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+01-05 15:36:04.647   215  5631 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+01-05 15:36:04.647   215  5631 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10003
+01-05 15:36:04.647   215  5631 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+01-05 15:36:04.647   215  5631 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+01-05 15:36:04.647   215  5631 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+01-05 15:36:04.651   215  5631 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+01-05 15:36:04.651   215  5631 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10002
+01-05 15:36:04.651   215  5631 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+01-05 15:36:04.651   215  5631 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+01-05 15:36:04.651   215  5631 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+01-05 15:36:04.651   215  5631 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+01-05 15:36:04.651   215  5631 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10003
+01-05 15:36:04.651   215  5631 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+01-05 15:36:04.651   215  5631 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+01-05 15:36:04.651   215  5631 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+01-05 15:36:04.661   215  5631 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+01-05 15:36:04.661   215  5631 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10002
+01-05 15:36:04.661   215  5631 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+01-05 15:36:04.661   215  5631 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+01-05 15:36:04.661   215  5631 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+01-05 15:36:04.662   215  5631 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+01-05 15:36:04.662   215  5631 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10003
+01-05 15:36:04.662   215  5631 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+01-05 15:36:04.662   215  5631 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+01-05 15:36:04.662   215  5631 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+01-05 15:36:04.670   215  5631 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+01-05 15:36:04.670   215  5631 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10002
+01-05 15:36:04.670   215  5631 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+01-05 15:36:04.670   215  5631 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+01-05 15:36:04.671   215  5631 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+01-05 15:36:04.671   215  5631 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+01-05 15:36:04.671   215  5631 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10003
+01-05 15:36:04.671   215  5631 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+01-05 15:36:04.671   215  5631 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+01-05 15:36:04.671   215  5631 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+01-05 15:36:04.775   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 4 4, native 1, mapped 1 1
+01-05 15:36:04.786   215  5631 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+01-05 15:36:04.786   215  5631 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10002
+01-05 15:36:04.786   215  5631 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+01-05 15:36:04.786   215  5631 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+01-05 15:36:04.786   215  5631 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+01-05 15:36:04.787   215  5631 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+01-05 15:36:04.787   215  5631 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10003
+01-05 15:36:04.787   215  5631 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+01-05 15:36:04.787   215  5631 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+01-05 15:36:04.787   215  5631 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+01-05 15:36:04.795  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:04.795  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:04.799  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:04.799  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:04.805  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:04.805  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:04.809   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 5 5, native 1, mapped 1 1
+01-05 15:36:04.818   215  5631 E mm-camera: cpp_module_process_downstream_event:1067, Update buf queue: APPEND
+01-05 15:36:04.818   215  5631 E mm-camera: port_isp_mct_ctrl_cmd: error in isp_update_buf_info, identity = 0x10002
+01-05 15:36:04.818   215  5631 E mm-camera: port_ispif_proc_mct_ctrl_cmd: forward_event error
+01-05 15:36:04.818   215  5631 E mm-camera-sensor: port_sensor_port_process_event:1520 failed
+01-05 15:36:04.818   215  5631 E mm-camera-sensor: module_sensor_module_process_event:2335 failed
+01-05 15:36:04.843   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 6 6, native 1, mapped 1 1
+01-05 15:36:04.876   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 7 7, native 1, mapped 1 1
+01-05 15:36:04.910   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 8 8, native 1, mapped 1 1
+01-05 15:36:04.944   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 9 9, native 1, mapped 1 1
+01-05 15:36:04.945  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 140ms (188ms avg over 53 runs)
+01-05 15:36:04.945  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:04.945  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:04.962  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:04.962  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:04.966  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:04.966  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:04.971  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:04.971  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:04.978   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 10 10, native 1, mapped 1 1
+01-05 15:36:05.010   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 11 11, native 1, mapped 1 1
+01-05 15:36:05.043   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 12 12, native 1, mapped 1 1
+01-05 15:36:05.078   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 13 13, native 1, mapped 1 1
+01-05 15:36:05.110   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 14 14, native 1, mapped 1 1
+01-05 15:36:05.115  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 144ms (188ms avg over 54 runs)
+01-05 15:36:05.115  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.115  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.135  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:05.135  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:05.138  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:05.138  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:05.144   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 15 15, native 1, mapped 1 1
+01-05 15:36:05.144  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.144  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.177   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 16 16, native 1, mapped 1 1
+01-05 15:36:05.211   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 17 17, native 1, mapped 1 1
+01-05 15:36:05.244   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 18 18, native 1, mapped 1 1
+01-05 15:36:05.279   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 19 19, native 1, mapped 1 1
+01-05 15:36:05.302  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 157ms (187ms avg over 55 runs)
+01-05 15:36:05.302  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.302  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.311   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 20 20, native 1, mapped 1 1
+01-05 15:36:05.328  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:05.328  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:05.332  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:05.332  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:05.337  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.337  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.346   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 21 21, native 1, mapped 1 1
+01-05 15:36:05.378   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 22 22, native 1, mapped 1 1
+01-05 15:36:05.412   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 23 23, native 1, mapped 1 1
+01-05 15:36:05.448   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 24 24, native 1, mapped 1 1
+01-05 15:36:05.479   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 25 25, native 1, mapped 1 1
+01-05 15:36:05.489  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 152ms (186ms avg over 56 runs)
+01-05 15:36:05.489  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.489  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.512   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 26 26, native 1, mapped 1 1
+01-05 15:36:05.529  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:05.529  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:05.534  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:05.534  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:05.539  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.539  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.548   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 27 27, native 1, mapped 1 1
+01-05 15:36:05.580   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 28 28, native 1, mapped 1 1
+01-05 15:36:05.614   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 29 29, native 1, mapped 1 1
+01-05 15:36:05.648   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 30 30, native 1, mapped 1 1
+01-05 15:36:05.671  1320 29521 E ctxmgr  : [BaseProducer]Could not write ScreenState context, for account account#-517948760#, status = Status{statusCode=TIMEOUT, resolution=null}
+01-05 15:36:05.677  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 137ms (186ms avg over 57 runs)
+01-05 15:36:05.677  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.677  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.681   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 31 31, native 1, mapped 1 1
+01-05 15:36:05.699  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:05.700  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:05.703  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:05.703  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:05.708  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.708  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.714   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 32 32, native 1, mapped 1 1
+01-05 15:36:05.747   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 33 33, native 1, mapped 1 1
+01-05 15:36:05.781   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 34 34, native 1, mapped 1 1
+01-05 15:36:05.814   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 35 35, native 1, mapped 1 1
+01-05 15:36:05.848   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 36 36, native 1, mapped 1 1
+01-05 15:36:05.868  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 159ms (185ms avg over 58 runs)
+01-05 15:36:05.868  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.868  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.881   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 37 37, native 1, mapped 1 1
+01-05 15:36:05.903  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:05.903  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:05.913  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:05.913  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:05.915   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 38 38, native 1, mapped 1 1
+01-05 15:36:05.922  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.922  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:05.948   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 39 39, native 1, mapped 1 1
+01-05 15:36:05.982   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 40 40, native 1, mapped 1 1
+01-05 15:36:06.015   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 41 41, native 1, mapped 1 1
+01-05 15:36:06.050   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 42 42, native 1, mapped 1 1
+01-05 15:36:06.079  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 157ms (185ms avg over 59 runs)
+01-05 15:36:06.079  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.079  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.084   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 43 43, native 1, mapped 1 1
+01-05 15:36:06.110  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:06.110  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:06.116   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 44 44, native 1, mapped 1 1
+01-05 15:36:06.116  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:06.117  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:06.126  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.126  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.152   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 45 45, native 1, mapped 1 1
+01-05 15:36:06.185   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 46 46, native 1, mapped 1 1
+01-05 15:36:06.218   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 47 47, native 1, mapped 1 1
+01-05 15:36:06.251   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 48 48, native 1, mapped 1 1
+01-05 15:36:06.271  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 144ms (184ms avg over 60 runs)
+01-05 15:36:06.271  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.271  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.284   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 49 49, native 1, mapped 1 1
+01-05 15:36:06.311  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:06.311  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:06.315  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:06.315  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:06.317   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 50 50, native 1, mapped 1 1
+01-05 15:36:06.322  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.322  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.351   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 51 51, native 1, mapped 1 1
+01-05 15:36:06.385   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 52 52, native 1, mapped 1 1
+01-05 15:36:06.418   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 53 53, native 1, mapped 1 1
+01-05 15:36:06.452   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 54 54, native 1, mapped 1 1
+01-05 15:36:06.465  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 142ms (183ms avg over 61 runs)
+01-05 15:36:06.465  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.465  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.485   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 55 55, native 1, mapped 1 1
+01-05 15:36:06.504  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:06.504  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:06.510  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:06.510  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:06.515  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.515  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.519   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 56 56, native 1, mapped 1 1
+01-05 15:36:06.553   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 57 57, native 1, mapped 1 1
+01-05 15:36:06.586   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 58 58, native 1, mapped 1 1
+01-05 15:36:06.619   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 59 59, native 1, mapped 1 1
+01-05 15:36:06.653   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 60 60, native 1, mapped 1 1
+01-05 15:36:06.682  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 166ms (183ms avg over 62 runs)
+01-05 15:36:06.682  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.682  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.688   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 61 61, native 1, mapped 1 1
+01-05 15:36:06.718  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:06.718  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:06.721   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 62 62, native 1, mapped 1 1
+01-05 15:36:06.726  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:06.726  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:06.736  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.736  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.755   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 63 63, native 1, mapped 1 1
+01-05 15:36:06.789   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 64 64, native 1, mapped 1 1
+01-05 15:36:06.821   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 65 65, native 1, mapped 1 1
+01-05 15:36:06.854   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 66 66, native 1, mapped 1 1
+01-05 15:36:06.889   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 67 67, native 1, mapped 1 1
+01-05 15:36:06.911  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 175ms (183ms avg over 63 runs)
+01-05 15:36:06.911  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.911  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.921   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 68 68, native 1, mapped 1 1
+01-05 15:36:06.941  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:06.942  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:06.945  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:06.945  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:06.951  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.951  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:06.957   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 69 69, native 1, mapped 1 1
+01-05 15:36:06.989   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 70 70, native 1, mapped 1 1
+01-05 15:36:07.024   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 71 71, native 1, mapped 1 1
+01-05 15:36:07.056   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 72 72, native 1, mapped 1 1
+01-05 15:36:07.090   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 73 73, native 1, mapped 1 1
+01-05 15:36:07.090  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 139ms (182ms avg over 64 runs)
+01-05 15:36:07.091  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.091  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.109  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:07.109  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:07.112  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:07.112  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:07.117  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.117  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.122   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 74 74, native 1, mapped 1 1
+01-05 15:36:07.158   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 75 75, native 1, mapped 1 1
+01-05 15:36:07.191   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 76 76, native 1, mapped 1 1
+01-05 15:36:07.223   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 77 77, native 1, mapped 1 1
+01-05 15:36:07.256   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 78 78, native 1, mapped 1 1
+01-05 15:36:07.266  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 148ms (182ms avg over 65 runs)
+01-05 15:36:07.266  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.266  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.290   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 79 79, native 1, mapped 1 1
+01-05 15:36:07.321  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:07.321  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:07.323   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 80 80, native 1, mapped 1 1
+01-05 15:36:07.329  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:07.329  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:07.337  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.337  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.358   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 81 81, native 1, mapped 1 1
+01-05 15:36:07.392   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 82 82, native 1, mapped 1 1
+01-05 15:36:07.425   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 83 83, native 1, mapped 1 1
+01-05 15:36:07.457   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 84 84, native 1, mapped 1 1
+01-05 15:36:07.491   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 85 85, native 1, mapped 1 1
+01-05 15:36:07.526   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 86 86, native 1, mapped 1 1
+01-05 15:36:07.547  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 209ms (182ms avg over 66 runs)
+01-05 15:36:07.547  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.547  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.558   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 87 87, native 1, mapped 1 1
+01-05 15:36:07.575  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:07.575  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:07.579  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:07.580  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:07.584  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.584  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.593   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 88 88, native 1, mapped 1 1
+01-05 15:36:07.625   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 89 89, native 1, mapped 1 1
+01-05 15:36:07.658   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 90 90, native 1, mapped 1 1
+01-05 15:36:07.692   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 91 91, native 1, mapped 1 1
+01-05 15:36:07.725   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 92 92, native 1, mapped 1 1
+01-05 15:36:07.731  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 146ms (182ms avg over 67 runs)
+01-05 15:36:07.732  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.732  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.759   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 93 93, native 1, mapped 1 1
+01-05 15:36:07.780  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:07.780  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:07.784  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:07.784  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:07.789  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.789  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.794   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 94 94, native 1, mapped 1 1
+01-05 15:36:07.827   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 95 95, native 1, mapped 1 1
+01-05 15:36:07.860   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 96 96, native 1, mapped 1 1
+01-05 15:36:07.893   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 97 97, native 1, mapped 1 1
+01-05 15:36:07.926   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 98 98, native 1, mapped 1 1
+01-05 15:36:07.938  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 149ms (181ms avg over 68 runs)
+01-05 15:36:07.939  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.939  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:07.960   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 99 99, native 1, mapped 1 1
+01-05 15:36:07.988  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:07.989  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:07.995   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 100 100, native 1, mapped 1 1
+01-05 15:36:07.997  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:07.997  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:08.012  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.012  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.028   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 101 101, native 1, mapped 1 1
+01-05 15:36:08.061   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 102 102, native 1, mapped 1 1
+01-05 15:36:08.095   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 103 103, native 1, mapped 1 1
+01-05 15:36:08.129   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 104 104, native 1, mapped 1 1
+01-05 15:36:08.160  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 148ms (181ms avg over 69 runs)
+01-05 15:36:08.160  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.161  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.161   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 105 105, native 1, mapped 1 1
+01-05 15:36:08.191  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:08.191  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:08.194   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 106 106, native 1, mapped 1 1
+01-05 15:36:08.196  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:08.197  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:08.203  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.203  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.228   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 107 107, native 1, mapped 1 1
+01-05 15:36:08.263   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 108 108, native 1, mapped 1 1
+01-05 15:36:08.295   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 109 109, native 1, mapped 1 1
+01-05 15:36:08.328   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 110 110, native 1, mapped 1 1
+01-05 15:36:08.347  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 143ms (180ms avg over 70 runs)
+01-05 15:36:08.347  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.347  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.362   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 111 111, native 1, mapped 1 1
+01-05 15:36:08.391  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:08.391  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:08.395   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 112 112, native 1, mapped 1 1
+01-05 15:36:08.397  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:08.397  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:08.406  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.407  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.430   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 113 113, native 1, mapped 1 1
+01-05 15:36:08.464   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 114 114, native 1, mapped 1 1
+01-05 15:36:08.497   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 115 115, native 1, mapped 1 1
+01-05 15:36:08.531   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 116 116, native 1, mapped 1 1
+01-05 15:36:08.550  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 143ms (180ms avg over 71 runs)
+01-05 15:36:08.550  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.550  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.564   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 117 117, native 1, mapped 1 1
+01-05 15:36:08.581  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:08.582  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:08.587  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:08.587  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:08.595  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.595  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.598   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 118 118, native 1, mapped 1 1
+01-05 15:36:08.630   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 119 119, native 1, mapped 1 1
+01-05 15:36:08.665   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 120 120, native 1, mapped 1 1
+01-05 15:36:08.697   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 121 121, native 1, mapped 1 1
+01-05 15:36:08.731   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 122 122, native 1, mapped 1 1
+01-05 15:36:08.749  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 154ms (179ms avg over 72 runs)
+01-05 15:36:08.750  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.750  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.765   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 123 123, native 1, mapped 1 1
+01-05 15:36:08.790  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:08.790  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:08.796  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:08.796  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:08.797   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 124 124, native 1, mapped 1 1
+01-05 15:36:08.805  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.805  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.831   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 125 125, native 1, mapped 1 1
+01-05 15:36:08.866   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 126 126, native 1, mapped 1 1
+01-05 15:36:08.900   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 127 127, native 1, mapped 1 1
+01-05 15:36:08.933   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 128 128, native 1, mapped 1 1
+01-05 15:36:08.962  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 156ms (179ms avg over 73 runs)
+01-05 15:36:08.962  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.962  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:08.966   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 129 129, native 1, mapped 1 1
+01-05 15:36:08.998   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 130 130, native 1, mapped 1 1
+01-05 15:36:09.003  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:09.004  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:09.013  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:09.013  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:09.021  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.021  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.033   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 131 131, native 1, mapped 1 1
+01-05 15:36:09.067   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 132 132, native 1, mapped 1 1
+01-05 15:36:09.099   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 133 133, native 1, mapped 1 1
+01-05 15:36:09.134   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 134 134, native 1, mapped 1 1
+01-05 15:36:09.166   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 135 135, native 1, mapped 1 1
+01-05 15:36:09.176  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 155ms (179ms avg over 74 runs)
+01-05 15:36:09.177  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.177  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.200   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 136 136, native 1, mapped 1 1
+01-05 15:36:09.218  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:09.218  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:09.222  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:09.222  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:09.227  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.227  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.233   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 137 137, native 1, mapped 1 1
+01-05 15:36:09.268   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 138 138, native 1, mapped 1 1
+01-05 15:36:09.301   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 139 139, native 1, mapped 1 1
+01-05 15:36:09.333   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 140 140, native 1, mapped 1 1
+01-05 15:36:09.367   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 141 141, native 1, mapped 1 1
+01-05 15:36:09.378  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 150ms (178ms avg over 75 runs)
+01-05 15:36:09.378  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.378  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.401   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 142 142, native 1, mapped 1 1
+01-05 15:36:09.428  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:09.428  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:09.433  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:09.434   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 143 143, native 1, mapped 1 1
+01-05 15:36:09.434  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:09.444  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.445  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.474   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 144 144, native 1, mapped 1 1
+01-05 15:36:09.501   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 145 145, native 1, mapped 1 1
+01-05 15:36:09.536   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 146 146, native 1, mapped 1 1
+01-05 15:36:09.569   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 147 147, native 1, mapped 1 1
+01-05 15:36:09.603   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 148 148, native 1, mapped 1 1
+01-05 15:36:09.636   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 149 149, native 1, mapped 1 1
+01-05 15:36:09.641  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 196ms (178ms avg over 76 runs)
+01-05 15:36:09.641  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.641  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.670   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 150 150, native 1, mapped 1 1
+01-05 15:36:09.693  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:09.693  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:09.701  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:09.701  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:09.703   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 151 151, native 1, mapped 1 1
+01-05 15:36:09.712  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.713  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.737   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 152 152, native 1, mapped 1 1
+01-05 15:36:09.770   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 153 153, native 1, mapped 1 1
+01-05 15:36:09.802   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 154 154, native 1, mapped 1 1
+01-05 15:36:09.836   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 155 155, native 1, mapped 1 1
+01-05 15:36:09.871   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 156 156, native 1, mapped 1 1
+01-05 15:36:09.871  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 158ms (178ms avg over 77 runs)
+01-05 15:36:09.872  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.872  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.894  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:09.894  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:09.901  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:09.901  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:09.903   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 157 157, native 1, mapped 1 1
+01-05 15:36:09.910  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.910  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:09.938   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 158 158, native 1, mapped 1 1
+01-05 15:36:09.972   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 159 159, native 1, mapped 1 1
+01-05 15:36:10.003   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 160 160, native 1, mapped 1 1
+01-05 15:36:10.038   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 161 161, native 1, mapped 1 1
+01-05 15:36:10.061  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 150ms (178ms avg over 78 runs)
+01-05 15:36:10.061  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.061  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.070   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 162 162, native 1, mapped 1 1
+01-05 15:36:10.097  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:10.097  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:10.103  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:10.103  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:10.106   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 163 163, native 1, mapped 1 1
+01-05 15:36:10.113  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.113  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.137   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 164 164, native 1, mapped 1 1
+01-05 15:36:10.171   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 165 165, native 1, mapped 1 1
+01-05 15:36:10.206   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 166 166, native 1, mapped 1 1
+01-05 15:36:10.238   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 167 167, native 1, mapped 1 1
+01-05 15:36:10.271   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 168 168, native 1, mapped 1 1
+01-05 15:36:10.278  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 164ms (178ms avg over 79 runs)
+01-05 15:36:10.278  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.278  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.306   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 169 169, native 1, mapped 1 1
+01-05 15:36:10.331  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:10.331  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:10.337  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:10.337  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:10.338   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 170 170, native 1, mapped 1 1
+01-05 15:36:10.347  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.347  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.372   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 171 171, native 1, mapped 1 1
+01-05 15:36:10.407   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 172 172, native 1, mapped 1 1
+01-05 15:36:10.440   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 173 173, native 1, mapped 1 1
+01-05 15:36:10.473   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 174 174, native 1, mapped 1 1
+01-05 15:36:10.503  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 155ms (177ms avg over 80 runs)
+01-05 15:36:10.503  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.504  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.506   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 175 175, native 1, mapped 1 1
+01-05 15:36:10.535  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:10.535  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:10.541   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 176 176, native 1, mapped 1 1
+01-05 15:36:10.544  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:10.544  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:10.553  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.553  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.574   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 177 177, native 1, mapped 1 1
+01-05 15:36:10.608   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 178 178, native 1, mapped 1 1
+01-05 15:36:10.642   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 179 179, native 1, mapped 1 1
+01-05 15:36:10.675   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 180 180, native 1, mapped 1 1
+01-05 15:36:10.707   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 181 181, native 1, mapped 1 1
+01-05 15:36:10.713  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 160ms (177ms avg over 81 runs)
+01-05 15:36:10.713  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.713  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.732  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:10.732  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:10.737  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:10.737  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:10.741   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 182 182, native 1, mapped 1 1
+01-05 15:36:10.745  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.745  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.775   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 183 183, native 1, mapped 1 1
+01-05 15:36:10.810   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 184 184, native 1, mapped 1 1
+01-05 15:36:10.843   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 185 185, native 1, mapped 1 1
+01-05 15:36:10.875   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 186 186, native 1, mapped 1 1
+01-05 15:36:10.900  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 155ms (177ms avg over 82 runs)
+01-05 15:36:10.900  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.900  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.910   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 187 187, native 1, mapped 1 1
+01-05 15:36:10.927  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:10.927  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:10.932  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:10.932  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:10.938  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.938  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:10.942   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 188 188, native 1, mapped 1 1
+01-05 15:36:10.975   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 189 189, native 1, mapped 1 1
+01-05 15:36:11.011   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 190 190, native 1, mapped 1 1
+01-05 15:36:11.044   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 191 191, native 1, mapped 1 1
+01-05 15:36:11.077   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 192 192, native 1, mapped 1 1
+01-05 15:36:11.095  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 157ms (177ms avg over 83 runs)
+01-05 15:36:11.095  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.096  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.110   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 193 193, native 1, mapped 1 1
+01-05 15:36:11.130  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:11.130  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:11.135  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:11.135  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:11.139  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.139  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.145   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 194 194, native 1, mapped 1 1
+01-05 15:36:11.178   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 195 195, native 1, mapped 1 1
+01-05 15:36:11.212   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 196 196, native 1, mapped 1 1
+01-05 15:36:11.244   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 197 197, native 1, mapped 1 1
+01-05 15:36:11.278   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 198 198, native 1, mapped 1 1
+01-05 15:36:11.290  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 150ms (176ms avg over 84 runs)
+01-05 15:36:11.290  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.290  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.312   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 199 199, native 1, mapped 1 1
+01-05 15:36:11.345   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 200 200, native 1, mapped 1 1
+01-05 15:36:11.346  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:11.347  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:11.354  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:11.354  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:11.363  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.363  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.381   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 201 201, native 1, mapped 1 1
+01-05 15:36:11.413   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 202 202, native 1, mapped 1 1
+01-05 15:36:11.448   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 203 203, native 1, mapped 1 1
+01-05 15:36:11.482   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 204 204, native 1, mapped 1 1
+01-05 15:36:11.507  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 144ms (176ms avg over 85 runs)
+01-05 15:36:11.507  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.507  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.513   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 205 205, native 1, mapped 1 1
+01-05 15:36:11.546  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:11.546  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:11.546   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 206 206, native 1, mapped 1 1
+01-05 15:36:11.554  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:11.555  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:11.563  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.563  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.580   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 207 207, native 1, mapped 1 1
+01-05 15:36:11.615   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 208 208, native 1, mapped 1 1
+01-05 15:36:11.649   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 209 209, native 1, mapped 1 1
+01-05 15:36:11.681   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 210 210, native 1, mapped 1 1
+01-05 15:36:11.716   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 211 211, native 1, mapped 1 1
+01-05 15:36:11.733  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 169ms (176ms avg over 86 runs)
+01-05 15:36:11.733  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.733  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.749   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 212 212, native 1, mapped 1 1
+01-05 15:36:11.765  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:11.765  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:11.770  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:11.771  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:11.780  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.780  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.783   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 213 213, native 1, mapped 1 1
+01-05 15:36:11.817   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 214 214, native 1, mapped 1 1
+01-05 15:36:11.850   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 215 215, native 1, mapped 1 1
+01-05 15:36:11.884   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 216 216, native 1, mapped 1 1
+01-05 15:36:11.917   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 217 217, native 1, mapped 1 1
+01-05 15:36:11.935  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 155ms (176ms avg over 87 runs)
+01-05 15:36:11.935  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.935  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.950   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 218 218, native 1, mapped 1 1
+01-05 15:36:11.975  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:11.976  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:11.983   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 219 219, native 1, mapped 1 1
+01-05 15:36:11.985  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:11.985  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:11.994  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:11.994  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.017   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 220 220, native 1, mapped 1 1
+01-05 15:36:12.051   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 221 221, native 1, mapped 1 1
+01-05 15:36:12.084   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 222 222, native 1, mapped 1 1
+01-05 15:36:12.117   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 223 223, native 1, mapped 1 1
+01-05 15:36:12.150   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 224 224, native 1, mapped 1 1
+01-05 15:36:12.164  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 170ms (176ms avg over 88 runs)
+01-05 15:36:12.164  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.164  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.184   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 225 225, native 1, mapped 1 1
+01-05 15:36:12.218   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 226 226, native 1, mapped 1 1
+01-05 15:36:12.218  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:12.218  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:12.225  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:12.225  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:12.234  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.234  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.256   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 227 227, native 1, mapped 1 1
+01-05 15:36:12.285   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 228 228, native 1, mapped 1 1
+01-05 15:36:12.318   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 229 229, native 1, mapped 1 1
+01-05 15:36:12.352   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 230 230, native 1, mapped 1 1
+01-05 15:36:12.385   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 231 231, native 1, mapped 1 1
+01-05 15:36:12.401  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 166ms (175ms avg over 89 runs)
+01-05 15:36:12.401  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.401  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.419   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 232 232, native 1, mapped 1 1
+01-05 15:36:12.446  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:12.446  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:12.453   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 233 233, native 1, mapped 1 1
+01-05 15:36:12.453  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:12.453  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:12.464  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.464  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.486   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 234 234, native 1, mapped 1 1
+01-05 15:36:12.520   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 235 235, native 1, mapped 1 1
+01-05 15:36:12.554   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 236 236, native 1, mapped 1 1
+01-05 15:36:12.587   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 237 237, native 1, mapped 1 1
+01-05 15:36:12.603  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 138ms (175ms avg over 90 runs)
+01-05 15:36:12.603  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.603  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.620   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 238 238, native 1, mapped 1 1
+01-05 15:36:12.650  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:12.650  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:12.654   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 239 239, native 1, mapped 1 1
+01-05 15:36:12.658  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:12.658  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:12.668  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.668  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.687   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 240 240, native 1, mapped 1 1
+01-05 15:36:12.723   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 241 241, native 1, mapped 1 1
+01-05 15:36:12.755   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 242 242, native 1, mapped 1 1
+01-05 15:36:12.790   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 243 243, native 1, mapped 1 1
+01-05 15:36:12.820  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 152ms (175ms avg over 91 runs)
+01-05 15:36:12.820  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.820  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.825   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 244 244, native 1, mapped 1 1
+01-05 15:36:12.852  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:12.853  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:12.855   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 245 245, native 1, mapped 1 1
+01-05 15:36:12.860  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:12.860  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:12.866  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.866  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:12.891   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 246 246, native 1, mapped 1 1
+01-05 15:36:12.923   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 247 247, native 1, mapped 1 1
+01-05 15:36:12.957   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 248 248, native 1, mapped 1 1
+01-05 15:36:12.990   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 249 249, native 1, mapped 1 1
+01-05 15:36:13.021  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 155ms (175ms avg over 92 runs)
+01-05 15:36:13.021  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.021  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.023   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 250 250, native 1, mapped 1 1
+01-05 15:36:13.040  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:13.040  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:13.045  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:13.045  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:13.050  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.050  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.057   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 251 251, native 1, mapped 1 1
+01-05 15:36:13.092   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 252 252, native 1, mapped 1 1
+01-05 15:36:13.125   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 253 253, native 1, mapped 1 1
+01-05 15:36:13.157   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 254 254, native 1, mapped 1 1
+01-05 15:36:13.191   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 255 255, native 1, mapped 1 1
+01-05 15:36:13.209  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 159ms (174ms avg over 93 runs)
+01-05 15:36:13.209  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.209  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.224   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 256 256, native 1, mapped 1 1
+01-05 15:36:13.241  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:13.241  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:13.245  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:13.245  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:13.250  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.251  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.262   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 257 257, native 1, mapped 1 1
+01-05 15:36:13.292   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 258 258, native 1, mapped 1 1
+01-05 15:36:13.326   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 259 259, native 1, mapped 1 1
+01-05 15:36:13.360   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 260 260, native 1, mapped 1 1
+01-05 15:36:13.394   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 261 261, native 1, mapped 1 1
+01-05 15:36:13.397  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 146ms (174ms avg over 94 runs)
+01-05 15:36:13.397  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.398  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.418  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:13.418  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:13.423  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:13.423  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:13.427   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 262 262, native 1, mapped 1 1
+01-05 15:36:13.434  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.434  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.461   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 263 263, native 1, mapped 1 1
+01-05 15:36:13.495   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 264 264, native 1, mapped 1 1
+01-05 15:36:13.528   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 265 265, native 1, mapped 1 1
+01-05 15:36:13.560   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 266 266, native 1, mapped 1 1
+01-05 15:36:13.590  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 156ms (174ms avg over 95 runs)
+01-05 15:36:13.590  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.590  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.594   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 267 267, native 1, mapped 1 1
+01-05 15:36:13.615  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:13.616  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:13.620  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:13.621  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:13.626  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.626  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.632   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 268 268, native 1, mapped 1 1
+01-05 15:36:13.661   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 269 269, native 1, mapped 1 1
+01-05 15:36:13.696   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 270 270, native 1, mapped 1 1
+01-05 15:36:13.730   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 271 271, native 1, mapped 1 1
+01-05 15:36:13.763   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 272 272, native 1, mapped 1 1
+01-05 15:36:13.780  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 154ms (174ms avg over 96 runs)
+01-05 15:36:13.780  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.780  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.797   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 273 273, native 1, mapped 1 1
+01-05 15:36:13.815  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:13.815  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:13.820  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:13.820  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:13.825  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.825  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.831   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 274 274, native 1, mapped 1 1
+01-05 15:36:13.864   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 275 275, native 1, mapped 1 1
+01-05 15:36:13.896   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 276 276, native 1, mapped 1 1
+01-05 15:36:13.930   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 277 277, native 1, mapped 1 1
+01-05 15:36:13.964   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 278 278, native 1, mapped 1 1
+01-05 15:36:13.985  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 159ms (173ms avg over 97 runs)
+01-05 15:36:13.985  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.985  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:13.997   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 279 279, native 1, mapped 1 1
+01-05 15:36:14.024  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:14.024  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:14.028  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:14.028  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:14.031   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 280 280, native 1, mapped 1 1
+01-05 15:36:14.034  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.035  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.065   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 281 281, native 1, mapped 1 1
+01-05 15:36:14.099   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 282 282, native 1, mapped 1 1
+01-05 15:36:14.131   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 283 283, native 1, mapped 1 1
+01-05 15:36:14.166   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 284 284, native 1, mapped 1 1
+01-05 15:36:14.191  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 156ms (173ms avg over 98 runs)
+01-05 15:36:14.192  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.192  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.199   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 285 285, native 1, mapped 1 1
+01-05 15:36:14.228  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:14.228  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:14.234   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 286 286, native 1, mapped 1 1
+01-05 15:36:14.244  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:14.244  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:14.250  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.250  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.267   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 287 287, native 1, mapped 1 1
+01-05 15:36:14.301   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 288 288, native 1, mapped 1 1
+01-05 15:36:14.334   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 289 289, native 1, mapped 1 1
+01-05 15:36:14.366   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 290 290, native 1, mapped 1 1
+01-05 15:36:14.402   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 291 291, native 1, mapped 1 1
+01-05 15:36:14.402  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 152ms (173ms avg over 99 runs)
+01-05 15:36:14.402  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.402  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.423  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:14.423  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:14.428  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:14.428  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:14.433   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 292 292, native 1, mapped 1 1
+01-05 15:36:14.435  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.436  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.467   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 293 293, native 1, mapped 1 1
+01-05 15:36:14.502   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 294 294, native 1, mapped 1 1
+01-05 15:36:14.535   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 295 295, native 1, mapped 1 1
+01-05 15:36:14.569   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 296 296, native 1, mapped 1 1
+01-05 15:36:14.600  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 164ms (173ms avg over 100 runs)
+01-05 15:36:14.600  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.600  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.601   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 297 297, native 1, mapped 1 1
+01-05 15:36:14.624  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:14.624  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:14.630  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:14.630  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:14.635   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 298 298, native 1, mapped 1 1
+01-05 15:36:14.639  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.639  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.668   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 299 299, native 1, mapped 1 1
+01-05 15:36:14.701   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 300 300, native 1, mapped 1 1
+01-05 15:36:14.735   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 301 301, native 1, mapped 1 1
+01-05 15:36:14.770   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 302 302, native 1, mapped 1 1
+01-05 15:36:14.792  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 153ms (173ms avg over 101 runs)
+01-05 15:36:14.792  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.792  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.804   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 303 303, native 1, mapped 1 1
+01-05 15:36:14.824  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:14.824  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:14.829  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:14.829  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:14.836  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.836  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.837   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 304 304, native 1, mapped 1 1
+01-05 15:36:14.870   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 305 305, native 1, mapped 1 1
+01-05 15:36:14.904   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 306 306, native 1, mapped 1 1
+01-05 15:36:14.938   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 307 307, native 1, mapped 1 1
+01-05 15:36:14.971   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 308 308, native 1, mapped 1 1
+01-05 15:36:14.994  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 158ms (173ms avg over 102 runs)
+01-05 15:36:14.994  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:14.994  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.004   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 309 309, native 1, mapped 1 1
+01-05 15:36:15.022  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:15.022  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:15.028  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:15.028  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:15.034  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.035  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.039   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 310 310, native 1, mapped 1 1
+01-05 15:36:15.068   210   293 E ThermalEngine: override action 5000
+01-05 15:36:15.068   210   293 E ThermalEngine: Thermal-Server: Thermal received msg override 5000
+01-05 15:36:15.068   210   293 E ThermalEngine: override_notify : SS mode 1 override 5000
+01-05 15:36:15.072   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 311 311, native 1, mapped 1 1
+01-05 15:36:15.105   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 312 312, native 1, mapped 1 1
+01-05 15:36:15.139   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 313 313, native 1, mapped 1 1
+01-05 15:36:15.171   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 314 314, native 1, mapped 1 1
+01-05 15:36:15.206   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 315 315, native 1, mapped 1 1
+01-05 15:36:15.222  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 187ms (173ms avg over 103 runs)
+01-05 15:36:15.222  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.222  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.239   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 316 316, native 1, mapped 1 1
+01-05 15:36:15.263  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:15.264  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:15.268  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:15.268  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:15.273   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 317 317, native 1, mapped 1 1
+01-05 15:36:15.276  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.277  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.306   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 318 318, native 1, mapped 1 1
+01-05 15:36:15.339   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 319 319, native 1, mapped 1 1
+01-05 15:36:15.373   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 320 320, native 1, mapped 1 1
+01-05 15:36:15.408   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 321 321, native 1, mapped 1 1
+01-05 15:36:15.440   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 322 322, native 1, mapped 1 1
+01-05 15:36:15.451  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 174ms (173ms avg over 104 runs)
+01-05 15:36:15.451  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.452  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.474   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 323 323, native 1, mapped 1 1
+01-05 15:36:15.501  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:15.502  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:15.508   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 324 324, native 1, mapped 1 1
+01-05 15:36:15.509  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:15.509  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:15.517  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.517  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.542   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 325 325, native 1, mapped 1 1
+01-05 15:36:15.575   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 326 326, native 1, mapped 1 1
+01-05 15:36:15.607   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 327 327, native 1, mapped 1 1
+01-05 15:36:15.641   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 328 328, native 1, mapped 1 1
+01-05 15:36:15.676   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 329 329, native 1, mapped 1 1
+01-05 15:36:15.693  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 176ms (173ms avg over 105 runs)
+01-05 15:36:15.693  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.694  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.708   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 330 330, native 1, mapped 1 1
+01-05 15:36:15.717  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:15.717  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:15.722  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:15.722  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:15.729  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.729  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.742   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 331 331, native 1, mapped 1 1
+01-05 15:36:15.776   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 332 332, native 1, mapped 1 1
+01-05 15:36:15.808   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 333 333, native 1, mapped 1 1
+01-05 15:36:15.842   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 334 334, native 1, mapped 1 1
+01-05 15:36:15.876   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 335 335, native 1, mapped 1 1
+01-05 15:36:15.897  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 168ms (173ms avg over 106 runs)
+01-05 15:36:15.897  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.898  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.910   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 336 336, native 1, mapped 1 1
+01-05 15:36:15.928  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:15.928  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:15.933  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:15.933  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:15.940  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.940  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:15.946   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 337 337, native 1, mapped 1 1
+01-05 15:36:15.976   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 338 338, native 1, mapped 1 1
+01-05 15:36:16.011   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 339 339, native 1, mapped 1 1
+01-05 15:36:16.043   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 340 340, native 1, mapped 1 1
+01-05 15:36:16.077   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 341 341, native 1, mapped 1 1
+01-05 15:36:16.110   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 342 342, native 1, mapped 1 1
+01-05 15:36:16.122  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 182ms (173ms avg over 107 runs)
+01-05 15:36:16.123  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.123  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.144   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 343 343, native 1, mapped 1 1
+01-05 15:36:16.175  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:16.175  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:16.178   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 344 344, native 1, mapped 1 1
+01-05 15:36:16.182  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:16.182  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:16.189  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.189  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.212   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 345 345, native 1, mapped 1 1
+01-05 15:36:16.250   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 346 346, native 1, mapped 1 1
+01-05 15:36:16.277   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 347 347, native 1, mapped 1 1
+01-05 15:36:16.311   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 348 348, native 1, mapped 1 1
+01-05 15:36:16.344   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 349 349, native 1, mapped 1 1
+01-05 15:36:16.368  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 179ms (173ms avg over 108 runs)
+01-05 15:36:16.369  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.369  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.379   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 350 350, native 1, mapped 1 1
+01-05 15:36:16.399  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:16.400  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:16.404  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:16.404  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:16.410  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.410  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.415   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 351 351, native 1, mapped 1 1
+01-05 15:36:16.445   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 352 352, native 1, mapped 1 1
+01-05 15:36:16.479   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 353 353, native 1, mapped 1 1
+01-05 15:36:16.513   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 354 354, native 1, mapped 1 1
+01-05 15:36:16.545   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 355 355, native 1, mapped 1 1
+01-05 15:36:16.568  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 157ms (173ms avg over 109 runs)
+01-05 15:36:16.568  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.568  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.579   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 356 356, native 1, mapped 1 1
+01-05 15:36:16.602  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:16.603  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:16.607  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:16.607  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:16.614   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 357 357, native 1, mapped 1 1
+01-05 15:36:16.614  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.615  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.648   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 358 358, native 1, mapped 1 1
+01-05 15:36:16.681   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 359 359, native 1, mapped 1 1
+01-05 15:36:16.715   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 360 360, native 1, mapped 1 1
+01-05 15:36:16.749   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 361 361, native 1, mapped 1 1
+01-05 15:36:16.779  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 164ms (173ms avg over 110 runs)
+01-05 15:36:16.779  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.780  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.780   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 362 362, native 1, mapped 1 1
+01-05 15:36:16.808  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:16.808  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:16.812  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:16.812  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:16.815   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 363 363, native 1, mapped 1 1
+01-05 15:36:16.820  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.820  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:16.849   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 364 364, native 1, mapped 1 1
+01-05 15:36:16.882   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 365 365, native 1, mapped 1 1
+01-05 15:36:16.916   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 366 366, native 1, mapped 1 1
+01-05 15:36:16.948   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 367 367, native 1, mapped 1 1
+01-05 15:36:16.982   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 368 368, native 1, mapped 1 1
+01-05 15:36:17.003  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 182ms (173ms avg over 111 runs)
+01-05 15:36:17.003  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.003  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.016   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 369 369, native 1, mapped 1 1
+01-05 15:36:17.037  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:17.037  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:17.043  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:17.044  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:17.049   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 370 370, native 1, mapped 1 1
+01-05 15:36:17.051  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.051  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.084   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 371 371, native 1, mapped 1 1
+01-05 15:36:17.118   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 372 372, native 1, mapped 1 1
+01-05 15:36:17.151   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 373 373, native 1, mapped 1 1
+01-05 15:36:17.185   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 374 374, native 1, mapped 1 1
+01-05 15:36:17.198  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 147ms (173ms avg over 112 runs)
+01-05 15:36:17.199  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.199  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.218   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 375 375, native 1, mapped 1 1
+01-05 15:36:17.243  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:17.243  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:17.249  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:17.249  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:17.251   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 376 376, native 1, mapped 1 1
+01-05 15:36:17.257  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.258  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.287   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 377 377, native 1, mapped 1 1
+01-05 15:36:17.317   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 378 378, native 1, mapped 1 1
+01-05 15:36:17.353   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 379 379, native 1, mapped 1 1
+01-05 15:36:17.384   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 380 380, native 1, mapped 1 1
+01-05 15:36:17.415  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 157ms (172ms avg over 113 runs)
+01-05 15:36:17.416  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.416  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.420   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 381 381, native 1, mapped 1 1
+01-05 15:36:17.451  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:17.451  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:17.452   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 382 382, native 1, mapped 1 1
+01-05 15:36:17.460  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:17.460  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:17.468  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.468  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.485   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 383 383, native 1, mapped 1 1
+01-05 15:36:17.519   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 384 384, native 1, mapped 1 1
+01-05 15:36:17.554   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 385 385, native 1, mapped 1 1
+01-05 15:36:17.588   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 386 386, native 1, mapped 1 1
+01-05 15:36:17.621   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 387 387, native 1, mapped 1 1
+01-05 15:36:17.625  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 156ms (172ms avg over 114 runs)
+01-05 15:36:17.625  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.625  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.647  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:17.648  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:17.654   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 388 388, native 1, mapped 1 1
+01-05 15:36:17.656  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:17.656  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:17.664  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.664  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.688   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 389 389, native 1, mapped 1 1
+01-05 15:36:17.722   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 390 390, native 1, mapped 1 1
+01-05 15:36:17.755   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 391 391, native 1, mapped 1 1
+01-05 15:36:17.789   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 392 392, native 1, mapped 1 1
+01-05 15:36:17.821   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 393 393, native 1, mapped 1 1
+01-05 15:36:17.846  1764  1764 E NowRemoteClient: skipping logEndstates, service is null
+01-05 15:36:17.856   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 394 394, native 1, mapped 1 1
+01-05 15:36:17.884  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 219ms (173ms avg over 115 runs)
+01-05 15:36:17.884  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.884  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:17.890   215  5626 E mm-camera: module_faceproc_port_event_func:886] MCT_EVENT_MODULE_BUF_DIVERT 65539, Cannot start FD, active 10002, frameid 395 395, native 1, mapped 1 1
+01-05 15:36:17.906   197   197 E mm-camera-intf: mm_camera_poll_thread_del_poll_fd: invalid handler 8960 (0)
+01-05 15:36:17.948  3312  5589 I tensorflow: ImageUtils: Saving Mat 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:17.962   197   197 E mm-camera-intf: mm_camera_poll_thread_del_poll_fd: invalid handler 9472 (0)
+01-05 15:36:18.002  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:18.019  3312  5589 I tensorflow: ImageUtils: Saving 48x48 bitmap to /storage/emulated/0/tensorflow.
+01-05 15:36:18.019  3312  5589 I tensorflow: ImageUtils: Make dir failed
+01-05 15:36:18.042  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:18.042  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:18.042   215  5631 E mm-camera: isp_unlink_sink_port: E
+01-05 15:36:18.045   197   197 E QCamera3Channel: virtual qcamera::QCamera3Channel::~QCamera3Channel(): deleting channel 8705
+01-05 15:36:18.046   197  6394 E ACDB-LOADER: Error: ACDB AudProc vol returned = -19
+01-05 15:36:18.047   215  5631 E mm-camera: isp_unlink_sink_port: E
+01-05 15:36:18.047   215  5631 E mm-camera-img: faceproc_save_album:774] Error No album 
+01-05 15:36:18.047   215  5631 E mm-camera-img: faceproc_comp_eng_destroy: Album save failed -1
+01-05 15:36:18.049   197   197 E QCamera3Channel: virtual qcamera::QCamera3Channel::~QCamera3Channel(): deleting channel 9218
+01-05 15:36:18.066   197   197 E QCamera3Channel: virtual qcamera::QCamera3Channel::~QCamera3Channel(): deleting channel 8192
+01-05 15:36:18.068   215  5631 E mm-camera: mct_pipeline_get_stream: no children
+01-05 15:36:18.068   215  5631 E mm-camera: mct_pipeline_process_set:1451: Couldn't find stream
+01-05 15:36:18.154  2153  2163 E ANDR-PERF-LOCK: Failed to reset optimization for resource: 4 level: 0
+01-05 15:36:18.337  3312  5590 I native  : tensorflow_inference_jni.cc:202 End computing. Ran in 295ms (174ms avg over 116 runs)
+01-05 15:36:18.337  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:18.337  3312  5590 I native  : tensorflow_inference_jni.cc:87 Found session variables for 7e906a6d147cafd9
+01-05 15:36:20.674  1320  2862 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.android.vending, Service: androidsecure
+01-05 15:36:20.674  1320  2862 E Auth    : dgn: Long live credential not available.
+01-05 15:36:20.674  1320  2862 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at dbw.a(:com.google.android.gms:37)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at ddj.getAuthToken(:com.google.android.gms:181)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:214)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+01-05 15:36:20.674  1320  2862 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
+01-05 15:36:40.953  1626  1633 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (com.google.android.gms.wearable.DataItemBuffer@89c1b00)
+01-05 15:36:41.028  1320  2675 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2: email
+01-05 15:36:41.028  1320  2675 E Auth    : dgn: Long live credential not available.
+01-05 15:36:41.028  1320  2675 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+01-05 15:36:41.028  1320  2675 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+01-05 15:36:41.028  1320  2675 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+01-05 15:36:41.028  1320  2675 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+01-05 15:36:41.028  1320  2675 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+01-05 15:36:41.028  1320  2675 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+01-05 15:36:41.028  1320  2675 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+01-05 15:36:41.028  1320  2675 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+01-05 15:36:41.028  1320  2675 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+01-05 15:36:41.028  1320  2675 E Auth    : 	at bcn.onTransact(:com.google.android.gms:137)
+01-05 15:36:41.028  1320  2675 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
+01-05 15:36:41.049  1320  1327 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@9e1d6da)
+01-05 15:36:41.049  1320  1327 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@b3b170b)
+01-05 15:36:41.050  1320  1327 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@6b059e8)
+01-05 15:36:41.051  1320  1327 E DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@5eb2801)
+01-05 15:36:41.189  1320  2539 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.android.vending, Service: androidsecure
+01-05 15:36:41.189  1320  2539 E Auth    : dgn: Long live credential not available.
+01-05 15:36:41.189  1320  2539 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at dbw.a(:com.google.android.gms:37)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at ddj.getAuthToken(:com.google.android.gms:181)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:214)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+01-05 15:36:41.189  1320  2539 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
+01-05 15:37:01.444  1320  1858 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.android.vending, Service: androidsecure
+01-05 15:37:01.444  1320  1858 E Auth    : dgn: Long live credential not available.
+01-05 15:37:01.444  1320  1858 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at dbw.a(:com.google.android.gms:37)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at ddj.getAuthToken(:com.google.android.gms:181)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:214)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+01-05 15:37:01.444  1320  1858 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
+01-05 15:37:07.291  1320  2539 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/games
+01-05 15:37:07.291  1320  2539 E Auth    : dgn: Long live credential not available.
+01-05 15:37:07.291  1320  2539 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at dbw.a(:com.google.android.gms:37)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at ddj.getAuthToken(:com.google.android.gms:181)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:214)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+01-05 15:37:07.291  1320  2539 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
+01-05 15:37:21.670  1320  2539 E Auth    : [GoogleAccountDataServiceImpl] getToken() -> BAD_AUTHENTICATION. Account: <ELLIDED:-540182391>, App: com.android.vending, Service: androidsecure
+01-05 15:37:21.670  1320  2539 E Auth    : dgn: Long live credential not available.
+01-05 15:37:21.670  1320  2539 E Auth    : 	at dgo.a(:com.google.android.gms:3101)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at dfc.a(:com.google.android.gms:399)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at dfb.a(:com.google.android.gms:31371)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at dfb.a(:com.google.android.gms:313)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at egq.a(:com.google.android.gms:1201)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at ego.a(:com.google.android.gms:3554)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at ego.a(:com.google.android.gms:3196)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at dbp.a(:com.google.android.gms:349)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at dbp.a(:com.google.android.gms:213)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at dby.a(:com.google.android.gms:1501)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at dbx.a(:com.google.android.gms:914)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at dbx.e(:com.google.android.gms:526)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at dbw.a(:com.google.android.gms:37)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at ddj.getAuthToken(:com.google.android.gms:181)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:214)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:113)
+01-05 15:37:21.670  1320  2539 E Auth    : 	at android.os.Binder.execTransact(Binder.java:453)
